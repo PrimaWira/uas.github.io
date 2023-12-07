@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Monstseerat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --clr1: #dbc1ac;
+    --clr2: #634832;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    border: none;
+    outline: none;
+    font-family: 'Montserrat',sans-serif;
+}
+
+body {
+    background-color: #dbc1ac;
+}
+
+section{
+    min-height: 1oovh;
+    padding: 10rem 9% 2rem;
+}
+
+header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    align-items: center;
+    padding: 2rem 9%;
+    background-color: #634832;
+}
+
+.logo {
+    font-size: 20px;
+    color: #dbc1ac;
+    font-weight: 600;
+    cursor: default;
+}
+
+.navbar a{
+    font-size: 16px;
+    color: #dbc1ac;
+    margin-left: 4rem;
+    transition: .4S;
+}
+
+.navbar a:hover{
+    color: white;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.container h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.container h1{
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 1.2;
+}
+
+.container p{
+    font-size: 20px;
+}
+
+.container img{
+    color: #634832;
+    width: 30px;
+    letter-spacing: 1.5;
+}
+
+.buttom{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #634832;
+    border-radius: 30px;
+    box-shadow: 0 0 15px var(--clr2);
+    font-size: 16px;
+    color: #dbc1ac;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+
+.buttom:hover{
+    box-shadow: none;
+}
+.containermenu{
+    background-color: #dbc1ac;
+}
+.containermenu h2{
+    margin-bottom: 2.5rem;
+    color: #634832;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.kami{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.kami .container1{
+    flex: 1 1 20rem;
+    background-color: #634832;
+    padding: 30px 20px 40px;
+    border-radius: 30px;
+    text-align: center;
+    border: .2rem solid var(--clr1);
+    transition: .5s ease;
+}
+
+.kami .container1:hover{
+    border-color: #dbc1ac;
+    transform: scale(1.02);
+}
+
+.GAM{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.container1 h3{
+    font-size: 30px;
+    color:white;
+}
+.btn{
+    display: inline-block;
+    padding: 15px 2.8rem;
+    background-color: #dbc1ac;
+    border-radius: 30px;
+    box-shadow: 0 0 10px var(--clr1);
+    font-size: 20px;
+    color: var(--clr2);
+    /* letter-spacing: .1rem; */
+    font-weight: 600;
+    margin-top: 20px;
+    transition: .5s ease;
+}
+
+.btn:hover{
+    box-shadow: none;
+}
+
+.coff img{
+    margin-top: -30px;
+}
+
+.media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid var(--clr2);
+    border-radius: 50%;
+    font-size: 20px;
+    color: #634832;
+    margin: 15px 10px 20px 0;
+    transition: .5s ease;
+}
+
+.media a:hover{ 
+    background: #634832;
+    color: #dbc1ac;
+    box-shadow: 0 0 13px var(--clr2);
+}
+
+.pesan{
+    max-width: 800px;
+    margin: 10px auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pesan .input{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pesan .input input,
+.pesan textarea{
+
+    width: 100%;
+    padding: 16px;
+    font-size: 15px;
+    color: #dbc1ac;
+    background: #634832;
+    border-radius: 7px;
+    margin: 6px 0;
+}
+
+.pesan .input input{
+    width: 49%;
+}
+
+.prim{
+    display: inline-block;
+    padding: 15px 2.8rem;
+    background-color: #634832;
+    border-radius: 30px;
+    box-shadow: 0 0 10px var(--clr2);
+    font-size: 20px;
+    color: var(--clr1);
+    font-weight: 600;
+    margin-top: 20px;
+    transition: .5s ease;
+}
+
+.prim:hover{
+    box-shadow: none;
+}
